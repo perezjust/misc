@@ -1,0 +1,1 @@
+To use the ESRIRegAsm.exe it worked to be in the directory the dll is located and reference the ESRIRegAsm.exe by full path.

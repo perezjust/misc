@@ -1,0 +1,12 @@
+
+IIS Troubleshooting...
+
+
+===============================================================================================
+
+getting a 500.12 error (ManagedPipelineHandler)
+fix was to register the .net framework again (v4.0.30319)
+Command line:
+C:\Users\Me>%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_regiis.exe -i
+
+===============================================================================================

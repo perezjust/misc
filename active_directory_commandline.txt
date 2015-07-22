@@ -1,0 +1,9 @@
+active directory stuff
+
+C:\> net group gisdev-pods-gisread /domain ##returns users in group
+
+C:\> nltest /dclist:domain.corp ##list ldap servers on domain
+
+DSA.MSC - command line to view users on ghoappv4
+
+C:\> netstat -an | findstr 6080 ##finds all processes id's that are using port 6080
